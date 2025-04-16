@@ -1,0 +1,113 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.name {background-color: #7e00cc;
+        width: 300px;
+        height: 150px;
+        border-radius: 60px;
+        color: rgb(236, 126, 0);
+        text-align: center;
+        font-size: 40px;
+    }
+
+.nav{
+    background-color: #7e00cc;
+    width: 200px;
+    height: 300px;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+}
+
+.table_img{
+    transition: transform 0.3s ease;
+}
+
+#img1, #img2, #img3, #img4 {
+    margin-right: 10px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover,
+#img4:hover {
+    transform: scale(1.5);
+}
+
+#head_img{
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #head_img {
+    border-radius: 500px;
+    display: block;
+    margin: 0 auto;
+  }
+
+body {
+    background-color: rgb(193, 162, 130);
+}
+
+  th, td {
+    border: 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+  .discribe1,  .discribe2,  .discribe3{
+    text-align: left;
+}
+
+  .discribe1{
+    font-size: 20px;
+  }
+
+  .discribe2{
+    font-size: 20px;
+}
+
+  .discribe3{
+    font-size: 20px;
+}
+
+  #about{
+    font-size: 25px;
+    font-style: normal;
+    width: 100px;
+    text-align: center;
+}
+
+  #hobbies{
+    font-size: 25px;
+    font-style: normal;
+    width: 100px;
+    text-align: center;
+  }
+
+  #target{
+    font-size: 25px;
+    font-style: normal;
+    width: 100px;
+    text-align: center;
+}
+.social_media{
+    background-color: #7e00cc;
+    border-radius: 60px;
+}
+
+.line{
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: 20px 0;
+}
